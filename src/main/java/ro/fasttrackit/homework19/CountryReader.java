@@ -39,7 +39,7 @@ public class CountryReader {
     }
 
     public String neighbourValidator(String[] string){
-        if(string.length<5 || string[5].isEmpty()){
+        if(string.length<6 || string[5].isEmpty()){
             return null;
         }
         return string[5];
